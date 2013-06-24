@@ -51,9 +51,9 @@ syn match	tjs2Float			display contained "\.\d\+\(e[-+]\=\d\+\)\=\>"
 syn match	tjs2Float			display contained "\d\+e[-+]\=\d\+\>"
 syn match	tjs2Float			display contained "0x\x*\.\x\+p[-+]\=\d\+\>"
 syn match	tjs2Float			display contained "0x\x\+\.\=p[-+]\=\d\+\>"
-syn match	tjs2Float			display contained "0b[01]*\.\x\+p[-+]\=\d\+\>"
+syn match	tjs2Float			display contained "0b[01]*\.[01]\+p[-+]\=\d\+\>"
 syn match	tjs2Float			display contained "0b[01]\+\.\=p[-+]\=\d\+\>"
-syn match	tjs2Float			display contained "0\o*\.\x\+p[-+]\=\d\+\>"
+syn match	tjs2Float			display contained "0\o*\.\o\+p[-+]\=\d\+\>"
 syn match	tjs2Float			display contained "0\o\+\.\=p[-+]\=\d\+\>"
 syn case match
 
